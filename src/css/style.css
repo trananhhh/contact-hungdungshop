@@ -64,11 +64,19 @@
 
 /* More info  */
 
-.more-info i {
+.phone-info {
+    justify-content: flex-start;
+    padding-left: 28px;
+}
+
+.more-info i,
+.phone-info i {
     margin-right: 8px;
     font-size: 28px;
 }
-.more-info h2 {
+
+.more-info h2,
+.phone-info h2 {
     text-align: left;
     font-size: 13px;
 }
@@ -76,25 +84,24 @@
 #press-here {
     justify-content: flex-end;
 }
-
 h4 {
     padding: 0;
     margin: 0;
 }
 
 #press-here i {
-    margin-top: 3px;
+    margin-top: 1px;
     font-size: 24px;
     margin-left: 8px;
-    transform: translateY(1px);
+    /* transform: translateY(1px); */
 }
 
 #press-here span {
-    width: 66px;
+    /* width: 78px; */
 }
 #press-here p {
-    text-align: justify;
-    font-size: 18px;
+    /* text-align: justify; */
+    font-size: 16px;
     width: 100%;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -177,4 +184,33 @@ h4 {
     body {
         display: none;
     }
+}
+
+.call-now-btn {
+    width: 84px;
+}
+.more-details-btn {
+    width: 90px;
+}
+
+#location-content {
+    padding-left: 18px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#location-title i {
+    font-size: 20px;
+}
+#location-title p {
+    margin-left: 12px;
+    margin-right: 8px;
+}
+#location-title {
+    height: 100%;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
 }
